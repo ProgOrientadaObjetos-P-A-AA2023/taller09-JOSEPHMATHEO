@@ -92,7 +92,7 @@ public class PrestamoEducativo extends Prestamo {
                 + "Valor mensual del pago del préstamo del valor de la "
                 + "carrera: %.2f\n",
                 cadena,
-                ciudadP,
+                ciudadP.toUpperCase(),
                 nivelEst,
                 centro.obtenerNombre(),
                 centro.obtenerSiglas(),

@@ -102,7 +102,7 @@ public class PrestamoAutomovil extends Prestamo{
                 + "Valor del Auto: %.2f\n"
                 + "Valor mensual de pago préstamo automóvil: %.2f\n",
                 cadena,
-                ciudadP,
+                ciudadP.toLowerCase(),
                 tipoauto,
                 marcaAuto,
                 garante1.obtenerNombre(),
